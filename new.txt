@@ -1,0 +1,94 @@
+1 = {
+    name: 'Computer Professionals registration Nigeria',
+    iconUrl:https://cdn.vanguardngr.com/wp-content/uploads/2021/04/CPN.jpg,
+    siteLink:#,
+    briefHistory:,
+},
+
+2 = {
+    name:"The Open University",
+    iconUrl:https://www.open.ac.uk/ouheaders/gui/Open_University_OG_Image.png
+    siteLink:#,
+    briefHistory:,
+},
+
+3 = {
+    name:" Common Wealth Of Learning",
+    iconUrl:https://nounnews.nou.edu.ng/sites/default/files/styles/large/public/images/COL-logo2.png?itok=4F37FES0,
+    siteLink:#,
+    briefHistory:,
+},
+
+4 = {
+    name: 'British Council',
+    iconUrl:https://e7.pngegg.com/pngimages/642/909/png-clipart-british-council-international-english-language-testing-system-united-kingdom-education-school-united-kingdom-blue-english.png,
+    siteLink:#,
+    briefHistory:,
+},
+
+5 = {
+    name: 'African Council for Distance Education',
+    iconUrl:https://edit.uia.org/img/org_logos/XJ1110.png,
+    siteLink:#,
+    briefHistory:,
+},
+
+6 = {
+    name: 'American Public University',
+    iconUrl:https://www.apu.apus.edu/images/site/content/sloan-c.gif,
+    siteLink:#,
+    briefHistory:,
+},
+
+7 = {
+    name:'International Council for Open and Distance Education',
+    iconUrl:https://globaleducationcoalition.unesco.org/uploads/267_InternationalCouncilforOpenandDistanceEducationICDE_color_logo_mD6QXB.png?v=ecJWC4SBXaBa9TltlDu83gHD9KrcJBYkJbn1yLu3gQQ,
+    siteLink:#,
+    briefHistory:,
+}
+
+
+
+
+
+
+
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwB1qDAcu8qWnyUcu2vIMxWI65tY6T9foRuA&s
+
+
+https://networks.au-ibar.org/show/university-of-lagos-yaba-lagos-nigeria/wiki-image/AU+REC+logos+%2835%29.png
+
+
+https://nou.edu.ng//wp-content/uploads/2021/12/Logo-1-257x300.png
+
+
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHJiC-bqfSeWYf7XIY39uKzBQ1-1Bwl275lA&s
+
+
+https://lts.edu.ng/assets/logo.png
+
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp0VrXPU0Mz2fbo-KItUlflJvpgzMj4RL8og&s
+
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhYog7XpprBXCzr7Cako3CGPY-s8DRQKvJ-Q&s
+
+
+https://mau.edu.ng/static/media/mau_logo.59893794da5728e5366e.png
+
+
+for(let i = 1; i < testArray.length; i++){
+    
+    currentItem++;
+    // console.log(testArray[i]);
+
+    if(currentItem === testArray[i]){
+        // setTimeout(() => {
+        //     testItems.style.transition = 'transform 0.5s ease-in-out';
+        //     testItems.style.transform = `translateX(-${20 * currentItem}rem)`
+        // }, 2000)
+        console.log(testArray[i]);
+        testArray[i].classList.toggle('.test-card-active');
+    }else{
+        // currentItem = 0;
+    }
+}
+

@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SchulPortals</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/logo-img2.png" sizes="16*20">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/> -->
@@ -16,13 +18,25 @@
     <nav class="local-navbar container-fluid">
 
         <h1 class="logoText">SchulPortals</h1>
-        <ul class="ulItems">
+        <div class="hamburger" id="harmburger">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+              </div>
+              <ul class="ulItems">
             <li class="listItem"><a href="about.html">About</a></li>
             <li class="listItem"><a href="services.html">Our Services</a></li>
             <li class="listItem"><a href="">#</a></li>
+            <button class="local-btn contact">Contact</button>
         </ul>
-        <button class="local-btn contact">Contact</button>
-    </nav>
+        
+        
+    </nav><ul class="burgerItems hide">
+            <li class="burgerlist"><a href="about.html">About</a></li>
+            <li class="burgerlist"><a href="services.html">Our Services</a></li>
+            <li class="burgerlist"><a href="">#</a></li>
+            <button class="local-btn contact burger-btn">Contact</button>
+        </ul>
     <div class="header">
     <div class="left">
         <h1>Empowering Schools with Seamless Portal and Distance Learning Solutions!</h1>
@@ -92,31 +106,31 @@
         <p>National University Commission (NUC)</p>
     </div>
     <div class="clientLogo">
-        <img src="https://networks.au-ibar.org/show/university-of-lagos-yaba-lagos-nigeria/wiki-image/AU+REC+logos+%2835%29.png" alt="" class="clientLogo2" style="width: 10rem;">
+        <img src="https://networks.au-ibar.org/show/university-of-lagos-yaba-lagos-nigeria/wiki-image/AU+REC+logos+%2835%29.png" alt="" class="clientLogo1" style="width: 10rem;">
         <p>University of Lagos Distance Learning Institute</p>
     </div>
     <div class="clientLogo">
-        <img src="https://nou.edu.ng//wp-content/uploads/2021/12/Logo-1-257x300.png" alt="" class="clientLogo3" style="width: 10rem;">
+        <img src="https://nou.edu.ng//wp-content/uploads/2021/12/Logo-1-257x300.png" alt="" class="clientLogo1" style="width: 10rem;">
         <p>National Open University of Nigeria</p>
     </div>
     <div class="clientLogo">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHJiC-bqfSeWYf7XIY39uKzBQ1-1Bwl275lA&s" alt="" class="clientLogo4" style="width: 10rem;">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHJiC-bqfSeWYf7XIY39uKzBQ1-1Bwl275lA&s" alt="" class="clientLogo1" style="width: 10rem;">
         <p>University of Ibadan Distance Learning Center</p>
     </div>
     <div class="clientLogo">
-        <img src="https://lts.edu.ng/assets/logo.png" alt="" class="clientLogo5" style="width: 10rem;">
+        <img src="https://lts.edu.ng/assets/logo.png" alt="" class="clientLogo1" style="width: 10rem;">
         <p>L.I.F.E Theological Seminary</p>
     </div>
     <div class="clientLogo">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp0VrXPU0Mz2fbo-KItUlflJvpgzMj4RL8og&s" alt="" class="clientLogo6" style="width: 10rem;">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp0VrXPU0Mz2fbo-KItUlflJvpgzMj4RL8og&s" alt="" class="clientLogo1" style="width: 10rem;">
         <p>Center for Distance Learning University of Maiduguri</p>
     </div>
     <div class="clientLogo">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhYog7XpprBXCzr7Cako3CGPY-s8DRQKvJ-Q&s" alt="" class="clientLogo7" style="width: 10rem;">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhYog7XpprBXCzr7Cako3CGPY-s8DRQKvJ-Q&s" alt="" class="clientLogo1" style="width: 10rem;">
         <p>Obafemi Awolowo University Center for Distance Learning</p>
     </div>
     <div class="clientLogo">
-        <img src="https://mau.edu.ng/static/media/mau_logo.59893794da5728e5366e.png" alt="" class="clientLogo8" style="width: 10rem;">
+        <img src="https://mau.edu.ng/static/media/mau_logo.59893794da5728e5366e.png" alt="" class="clientLogo1" style="width: 10rem;">
         <p>Center Distance Learning Federal University of Technology Yola</p>
     </div>
     <!-- image duplicated!-->
@@ -125,31 +139,31 @@
         <p>National University Commission (NUC)</p>
     </div>
     <div class="clientLogo">
-        <img src="https://networks.au-ibar.org/show/university-of-lagos-yaba-lagos-nigeria/wiki-image/AU+REC+logos+%2835%29.png" alt="" class="clientLogo2" style="width: 10rem;">
+        <img src="https://networks.au-ibar.org/show/university-of-lagos-yaba-lagos-nigeria/wiki-image/AU+REC+logos+%2835%29.png" alt="" class="clientLogo1" style="width: 10rem;">
         <p>University of Lagos Distance Learning Institute</p>
     </div>
     <div class="clientLogo">
-        <img src="https://nou.edu.ng//wp-content/uploads/2021/12/Logo-1-257x300.png" alt="" class="clientLogo3" style="width: 10rem;">
+        <img src="https://nou.edu.ng//wp-content/uploads/2021/12/Logo-1-257x300.png" alt="" class="clientLogo1" style="width: 10rem;">
         <p>National Open University of Nigeria</p>
     </div>
     <div class="clientLogo">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHJiC-bqfSeWYf7XIY39uKzBQ1-1Bwl275lA&s" alt="" class="clientLogo4" style="width: 10rem;">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHJiC-bqfSeWYf7XIY39uKzBQ1-1Bwl275lA&s" alt="" class="clientLogo1" style="width: 10rem;">
         <p>University of Ibadan Distance Learning Center</p>
     </div>
     <div class="clientLogo">
-        <img src="https://lts.edu.ng/assets/logo.png" alt="" class="clientLogo5" style="width: 10rem;">
+        <img src="https://lts.edu.ng/assets/logo.png" alt="" class="clientLogo1" style="width: 10rem;">
         <p>L.I.F.E Theological Seminary</p>
     </div>
     <div class="clientLogo">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp0VrXPU0Mz2fbo-KItUlflJvpgzMj4RL8og&s" alt="" class="clientLogo6" style="width: 10rem;">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp0VrXPU0Mz2fbo-KItUlflJvpgzMj4RL8og&s" alt="" class="clientLogo1" style="width: 10rem;">
         <p>Center for Distance Learning University of Maiduguri</p>
     </div>
     <div class="clientLogo">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhYog7XpprBXCzr7Cako3CGPY-s8DRQKvJ-Q&s" alt="" class="clientLogo7" style="width: 10rem;">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhYog7XpprBXCzr7Cako3CGPY-s8DRQKvJ-Q&s" alt="" class="clientLogo1" style="width: 10rem;">
         <p>Obafemi Awolowo University Center for Distance Learning</p>
     </div>
     <div class="clientLogo">
-        <img src="https://mau.edu.ng/static/media/mau_logo.59893794da5728e5366e.png" alt="" class="clientLogo8" style="width: 10rem;">
+        <img src="https://mau.edu.ng/static/media/mau_logo.59893794da5728e5366e.png" alt="" class="clientLogo1" style="width: 10rem;">
         <p>Center Distance Learning Federal University of Technology Yola</p>
     </div>
     
@@ -232,6 +246,8 @@
 
     <h1 class="sect-test-h1">What Our Clients Says!</h1>
 
+
+    <div class="testimonial-container container-fluid">
     <!-- <div class="testimonial-info"> -->
         <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
     <div class=" testimonial-cards carousel-inner" >
@@ -277,7 +293,7 @@
           </button>
         
     </div>
-
+</div>
     <div class="test-icon-cont">
 <div class="test-icon"></div>
 <div class="test-icon test-icon-active"></div>
@@ -293,13 +309,15 @@
 <div class="footer">
 
     <div class="footer-header">
+        <img src="images/logo-img2.png" alt="" class="footer-header-img">
         <h2>SchulPortals Technologies Ltd.</h2></div>
         <div class="footer-address">
-
-<p>7, Adesoye Street Mende, Maryland Ikeja Lagos, Nigeria.</p>
+            <h3>Address</h3>
+    <p>7, Adesoye Street Mende, Maryland Ikeja Lagos, Nigeria.</p>
 
         </div>
         <div class="footer-contact">
+            <h3>Contact</h3>
         <p>Email: info@schulportals.com</p>
         <p>Tel: +2348023658920</p>
         <div class="footer-socials"></div>

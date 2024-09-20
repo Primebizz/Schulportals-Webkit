@@ -9,10 +9,27 @@ const testCard5 = document.getElementById('test-card5');
 const testArray = [testCard1,testCard2,testCard3,testCard4,testCard5];
 const testItems = document.querySelector('.testimonial-cards');
 const testActive = testArray[2];
+var logoText = document.querySelector('.logoText').textContent;
 
 const totalTestItem = testArray.length;
 
 
+// const screenSizeMax = document.contentType('width=device-width').style.maxWidth = '50rem';
+
+ let burgerItems = document.querySelector('.burgerItems');;
+
+
+let hamburger = document.querySelector('.hamburger');
+
+  const iconClick = document.getElementById('harmburger').addEventListener('click', function (){
+    hamburger.classList.toggle("change");
+    burgerItems.classList.toggle('hide')
+  });
+
+
+if(screenSizeMax){
+    logoText = 'main'
+}
 
 const totalSlides = track.length;
 let currentSlide = 0;

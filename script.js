@@ -12,6 +12,10 @@ const testActive = testArray[2];
 var logoText = document.querySelector('.logoText').textContent;
 
 const totalTestItem = testArray.length;
+const moreInfo = document.querySelector('.more-info');
+const showMore = document.querySelector('.show-more');
+const showLess = document.querySelector('.show-less');
+
 
 
 // const screenSizeMax = document.contentType('width=device-width').style.maxWidth = '50rem';
@@ -33,6 +37,23 @@ const hamburgerList = document.querySelector('.hamburger');
         burgerItems.classList.add('hide');
     }
   });
+
+
+showMore.addEventListener('click', function(){
+    moreInfo.style.display = 'block';
+    showLess.style.display = 'flex';
+    showLess.classList.remove('hide');
+    showMore.classList.add('hide');
+    showMore.style.display = 'none';
+});
+
+showLess.addEventListener('click', function(){
+    moreInfo.style.display = 'none';
+    showMore.style.display = 'flex';
+    showMore.classList.remove('hide');
+    showLess.classList.add('hide');
+    showLess.style.display = 'none';
+});
 
 
 if(screenSizeMax){

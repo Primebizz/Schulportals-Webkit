@@ -827,8 +827,7 @@ footer::before{
         display: flex;
         flex-wrap: wrap;
         gap: 5rem;
-        margin: 5% 0;
-        padding: 2% 0;
+        margin: 5% 2%;
         justify-content: center;
         text-align: center;
         background-color: #e6d9d9b6;
@@ -842,12 +841,10 @@ footer::before{
 
     .info-p{
         width: 100% !important;
-        margin: 0 5rem;
     }
     
     .info-p h2{
         font-size: x-large;
-        margin: 2rem 5rem;
         font-style: italic;
         font-family: var(--header-text);
     }

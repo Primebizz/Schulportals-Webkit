@@ -18,12 +18,20 @@ const totalTestItem = testArray.length;
 
  let burgerItems = document.querySelector('.burgerItems');;
 
+const hamrburger = document.getElementById('harmburger')
+const hamburgerList = document.querySelector('.hamburger');
 
-let hamburger = document.querySelector('.hamburger');
-
-  const iconClick = document.getElementById('harmburger').addEventListener('click', function (){
-    hamburger.classList.toggle("change");
+  hamrburger.addEventListener('click', function toggleHambugger (){
+    hamburgerList.classList.toggle("change");
     burgerItems.classList.toggle('hide')
+  });
+
+  document.addEventListener('keydown', function(m){
+    console.log(m); 
+    if(m.key === 'Escape' && !burgerItems.classList.contains('hide')){
+        hamburgerList.classList.remove('change')
+        burgerItems.classList.add('hide');
+    }
   });
 
 

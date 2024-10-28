@@ -92,3 +92,10 @@ for(let i = 1; i < testArray.length; i++){
     }
 }
 
+
+
+ <meta name="Description" CONTENT="SchulPortals is the best school management software in Nigeria. Most advanced Edu-Tech platform built by Educators for Educators.">
+
+ <meta name="keywords" content="Nigerian School Portal, Best School Portal in Nigeria, Best School Management Software Portal in Nigeria, School Portal in Nigeria, Best School Portal, School Portal in Lagos, School Portal in Abuja, School Portal in Ogun State, E-Learning, CBT, Computer Based Testing, Computer Based Training, Online Exams,School Management Software,School Management Software in Nigeria,Best School Management Software in Nigeria,Best School Management Software Nigeria">
+<meta name="googlebot" content="all" />
+

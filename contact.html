@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/Logo-favicons/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/a5f05c2e5e.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="section0">
+        <nav class="local-navbar container-fluid">
+    
+            <h1 class="logoText"><a href="index.html">SchulPortals</a></h1>
+            <div class="hamburger" id="harmburger">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                  </div>
+                  <ul class="ulItems">
+                <li class="listItem"><a href="about.html">About</a></li>
+                <li class="listItem"><a href="services.html">Our Services</a></li>
+                <li class="listItem"><a href="">#</a></li>
+                <button class="local-btn contact">Contact</button>
+            </ul>
+            
+            
+        </nav><ul class="burgerItems overlay hide">
+                <li class="burgerlist"><a href="about.html">About</a></li>
+                <li class="burgerlist"><a href="services.html">Our Services</a></li>
+                <li class="burgerlist"><a href="">#</a></li>
+                <button class="local-btn blue-btn contact burger-btn"><a href="contact.html">Contact</a></button>
+            </ul>
+
+    </section>
+
+   <section class="contact-request">
+
+      <h1>Talk to us</h1>
+          
+
+
+<!-- Request -->
+<div id="contact" class="form-1" >
+    <div class="container" >
+        <div class="row" >
+            <div class="col-lg-6">
+                <div class="text-container">
+<div class="alert alert-success" role="alert" id="success" style="display: ;">
+  <h4 class="alert-heading">Thank you.</h4>
+  <p>Your message has been received <br/> One of our staff will get in touch with you soon. </p>
+  <hr>
+  <p class="mb-0">If you have any further enquires you can also Call or Whatsapp +2348023658920. Or email; <a class="turquoise" href="mailto:schulportals@gmail.com">info@schulportals.com</a></p>
+</div>
+                <h2>Contact Information</h2>
+                <ul class="list-unstyled li-space-lg">
+                    <li><i class="fa fa-phone"></i><a class="turquoise" href="tel:+2349066275731">+2348023658920</a></li>
+                    <li><i class="fa fa-envelope"></i><a class="turquoise" href="mailto:schulportals@gmail.com">info@schulportals.com</a>
+                  	</li>
+                </ul>
+                </div>
+            </div>
+            <div class="col-lg-6">
+
+                
+                <div class="form-container">
+                    <form id="submitcontact" name="signupcontact" action="postEmail"  method="post" >
+                    <h2>Inquiry Form</h2>
+                        <div class="form-group">
+                            <label class="label-control" for="rname">Full name: </label>
+                            <input type="text" class="form-control-input" pattern="[a-zA-Z'-'\s]*" id="rname" name="rname" required>
+                            <div class="help-block with-errors" style="color:#ff0000"></div>
+                        </div>
+                        <div class="form-group">
+                            <label class="label-control" for="remail">Email: </label>
+                            <input type="email" class="form-control-input" id="remail" name="remail" required>
+                            <div class="help-block with-errors" style="color:#ff0000"></div>
+                        </div>
+                        <div class="form-group">
+                            <label class="label-control" for="rphone">Phone: </label>
+                            <input type="text" pattern="[0-9]*" class="form-control-input" id="rphone" placeholder="Phone" name="rphone" required>
+                            <div class="help-block with-errors" style="color:#ff0000"></div>
+                        </div>
+          <div class="form-group">           
+                        <div class="form-group checkbox">
+                            <input type="checkbox" id="rterms" value="Agreed-to-Terms" name="rterms" required>I agree with SchulPortals stated <a href="#">Privacy Policy</a> and <a href="#">Terms & Conditions</a>
+                            <div class="help-block with-errors" style="color:#ff0000"></div>
+                        </div>
+                      <p class="text-danger" id="errorrrc" style="color:#ff0000"></p>
+
+                        <div class="form-group">
+                            <button type="submit"  class="local-btn burger-btn blue-btn">REQUEST</button>
+                        </div>
+                        <div class="form-message">
+                            <div id="rmsgSubmit" class="h3 text-center hidden"></div>
+                        </div>
+                    </form>
+                </div> 
+               
+
+            </div> 
+        </div> 
+    </div> 
+</div> 
+
+</section>
+            <script src="script.js"></script>
+</body>
+</html>

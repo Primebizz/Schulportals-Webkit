@@ -15,6 +15,7 @@ const totalTestItem = testArray.length;
 const moreInfo = document.querySelector('.more-info');
 const showMore = document.querySelector('.show-more');
 const showLess = document.querySelector('.show-less');
+const overlay = document.querySelector('.overlay');
 
 
 
@@ -55,6 +56,11 @@ showLess.addEventListener('click', function(){
     showLess.style.display = 'none';
 });
 
+overlay.addEventListener('click',function(){
+    hamburgerList.classList.remove('change')
+    burgerItems.classList.add('hide');
+})
+
 
 // if(screenSizeMax){
 //     logoText = 'main'
@@ -92,12 +98,12 @@ function cardTestSlides(){
     
 };
 
-const names = ['demola', 'adetutu', 'shola', 'julius', 'lanre'];
+// const names = ['demola', 'adetutu', 'shola', 'julius', 'lanre'];
 
-const numbers = [10, 1, 15, 8, 6, 7, 9, 5, 3, 2, 4];
+// const numbers = [10, 1, 15, 8, 6, 7, 9, 5, 3, 2, 4];
 
-const sortedNumbers = numbers.sort((a, c) => a - c);
+// const sortedNumbers = numbers.sort((a, c) => a - c);
 
-const sortedNames = names.sort();
+// const sortedNames = names.sort();
 
-console.log(sortedNumbers);
+// console.log(sortedNumbers);

@@ -56,9 +56,9 @@ showLess.addEventListener('click', function(){
 });
 
 
-if(screenSizeMax){
-    logoText = 'main'
-}
+// if(screenSizeMax){
+//     logoText = 'main'
+// }
 
 const totalSlides = track.length;
 let currentSlide = 0;
@@ -90,4 +90,14 @@ let currentItem = 1;
 
 function cardTestSlides(){
     
-}
+};
+
+const names = ['demola', 'adetutu', 'shola', 'julius', 'lanre'];
+
+const numbers = [10, 1, 15, 8, 6, 7, 9, 5, 3, 2, 4];
+
+const sortedNumbers = numbers.sort((a, c) => a - c);
+
+const sortedNames = names.sort();
+
+console.log(sortedNumbers);

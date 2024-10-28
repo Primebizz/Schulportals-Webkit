@@ -92,6 +92,11 @@ header h1,header p, header button,header a{
 }
 
 
+.blue-btn{
+    color: var(--white);
+    background-color: #03132cf5 !important;
+}
+
   .hide{
     display: none;
   }
@@ -199,16 +204,16 @@ header h1,header p, header button,header a{
 }
 .left h1{
     font-size: xx-large;
-    font-weight: 300;
+    font-weight: 500;
     font-family: var(--libre-franklin-style);
     margin: 2rem 0;
 }
 
 .left p{
-    font-size: medium;
+    font-size: large;
     font-family: var(--style-text);
     font-style: italic;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .left button{

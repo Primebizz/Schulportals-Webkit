@@ -11,7 +11,7 @@
     <script src="https://kit.fontawesome.com/a5f05c2e5e.js" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </head>
-<body>
+<body style="background-color: #e9e9e9;">
     <section class="section0">
         <nav class="local-navbar container-fluid">
     
@@ -38,24 +38,12 @@
 
     </section>
 
-   <section class="contact-request">
+   <section class="contact-request"> 
+    
+        <h1>Talk to us</h1>
 
-      <h1>Talk to us</h1>
-          
+         <div class="text-container">
 
-
-<!-- Request -->
-<div id="contact" class="form-1" >
-    <div class="container" >
-        <div class="row" >
-            <div class="col-lg-6">
-                <div class="text-container">
-<div class="alert alert-success" role="alert" id="success" style="display: ;">
-  <h4 class="alert-heading">Thank you.</h4>
-  <p>Your message has been received <br/> One of our staff will get in touch with you soon. </p>
-  <hr>
-  <p class="mb-0">If you have any further enquires you can also Call or Whatsapp +2348023658920. Or email; <a class="turquoise" href="mailto:schulportals@gmail.com">info@schulportals.com</a></p>
-</div>
                 <h2>Contact Information</h2>
                 <ul class="list-unstyled li-space-lg">
                     <li><i class="fa fa-phone"></i><a class="turquoise" href="tel:+2349066275731">+2348023658920</a></li>
@@ -63,51 +51,106 @@
                   	</li>
                 </ul>
                 </div>
-            </div>
-            <div class="col-lg-6">
+            
 
-                
-                <div class="form-container">
-                    <form id="submitcontact" name="signupcontact" action="postEmail"  method="post" >
+    <div class="request-dash">
+
+        <img src="images/request-dash-img.png" alt="">
+
+            <form id="submitcontact" class="inquiry-form" name="signupcontact" action="postEmail"  method="post" >
+
+                     <div class="alert alert-success" role="alert" id="success" style="display: none;">
+                         <h4 class="alert-heading">Thank you.</h4>
+                           <p>Your message has been received <br/> One of our staff will get in touch with you soon. </p>
+                            <hr>
+                             <p class="mb-0">If you have any further enquires you can also Call or Whatsapp +2348023658920. Or email; <a class="turquoise" href="mailto:schulportals@gmail.com">info@schulportals.com</a></p>
+                     </div>
+
+
+
                     <h2>Inquiry Form</h2>
                         <div class="form-group">
                             <label class="label-control" for="rname">Full name: </label>
-                            <input type="text" class="form-control-input" pattern="[a-zA-Z'-'\s]*" id="rname" name="rname" required>
-                            <div class="help-block with-errors" style="color:#ff0000"></div>
+                            <input type="text" class="form-input" pattern="[a-zA-Z'-'\s]*" id="rname" name="rname" required>
                         </div>
                         <div class="form-group">
                             <label class="label-control" for="remail">Email: </label>
-                            <input type="email" class="form-control-input" id="remail" name="remail" required>
-                            <div class="help-block with-errors" style="color:#ff0000"></div>
+                            <input type="email" class="form-input" id="remail" name="remail" required>
                         </div>
                         <div class="form-group">
                             <label class="label-control" for="rphone">Phone: </label>
-                            <input type="text" pattern="[0-9]*" class="form-control-input" id="rphone" placeholder="Phone" name="rphone" required>
-                            <div class="help-block with-errors" style="color:#ff0000"></div>
+                            <input type="text" pattern="[0-9]*" class="form-input" id="rphone" placeholder="Phone" name="rphone" required>
                         </div>
-          <div class="form-group">           
+
+                        <div class="form-group">
+                            <label for="textarea" class="label-control">Purpose: </label>
+                            <textarea name="textarea" id="textarea"></textarea>
+                        </div>
+                     <div class="form-group">           
                         <div class="form-group checkbox">
                             <input type="checkbox" id="rterms" value="Agreed-to-Terms" name="rterms" required>I agree with SchulPortals stated <a href="#">Privacy Policy</a> and <a href="#">Terms & Conditions</a>
-                            <div class="help-block with-errors" style="color:#ff0000"></div>
                         </div>
                       <p class="text-danger" id="errorrrc" style="color:#ff0000"></p>
 
                         <div class="form-group">
-                            <button type="submit"  class="local-btn burger-btn blue-btn">REQUEST</button>
+                            <button type="submit"  class="local-btn burger-btn blue-btn">Inquire</button>
                         </div>
                         <div class="form-message">
                             <div id="rmsgSubmit" class="h3 text-center hidden"></div>
                         </div>
-                    </form>
-                </div> 
-               
-
-            </div> 
-        </div> 
-    </div> 
-</div> 
+                        </div>
+            </form>
+        
+        </div>
 
 </section>
+
+<footer>
+    <div class="footer">
+    
+            <div class="footer-header">
+            <img src="images/Logo-favicons/logo-img2.png" alt="SchulPortals Logo" class="footer-header-img">
+            <h2>SchulPortals Technologies Ltd.</h2></div>
+    
+        <div class="footer-add-cont-soc">
+            <div class="footer-address">
+    
+                
+    
+                <span class="footer-span"><i class="fa-solid fa-location-dot fa-lg" style="color: #FFD43B;"></i><h3>Address</h3></span>
+    
+                <p>7, Adesoye Street Mende, Maryland Ikeja Lagos, Nigeria.</p>
+                <hr class="hr">
+    
+            </div>
+            <div class="footer-contact">
+                <span class="footer-span"><i class="fa-solid fa-address-book" style="color: #FFD43B;"></i><h3>Contact</h3></span>
+    
+                <span class="footer-span"><i class="fa-brands fa-google" style="color: #FFD43B;"></i><p>Email: info@schulportals.com</p></span>
+    
+                <span class="footer-span"><i class="fa-solid fa-phone" style="color: #FFD43B;"></i><p>Tel: +2348023658920</p></span>
+            </div>
+            <div class="footer-socials">
+                <span class="footer-brands"><a href="https://facebook.com"><i class="fa-brands fa-facebook" style="color: #FFD43B;"></i></a></span>
+    
+                <span class="footer-brands"><a href="https://X.com"><i class="fa-brands fa-x-twitter" style="color: #FFD43B;"></i></a></span>
+    
+                <span class="footer-brands"><a href="https://wa.me/+2348023658920"><i class="fa-brands fa-whatsapp" style="color: #FFD43B;"></i></a></span>
+    
+                <span class="footer-brands"><a href="mailto:schulportals@gmail.com"><i class="fa-brands fa-google" style="color: #FFD43B;"></i></a></span>
+            </div>
+        
+    
+        </div>
+    
+        <hr class="hr">
+    
+        <p class="copyright">© Copyright SchulPortals</p>
+    
+    </div>
+    
+    </footer>
+
             <script src="script.js"></script>
 </body>
 </html>
